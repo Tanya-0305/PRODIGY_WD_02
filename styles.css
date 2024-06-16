@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/57/38/concept-of-time-management-vector-46805738.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-top: 150px;
+    margin-left: 10px;
+  }
+  
+  .stopwatch {
+    margin-bottom: 1px;
+    margin-left: 10px;
+  }
+  
+  #display {
+    font-size: 2em;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 2px solid #333;
+    display: inline-block;
+    width: 200px;
+    background-color: #eee;
+  }
+  
+  .buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 11px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #555;
+  }
+  
+  #laps {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #laps li {
+    font-size: 1em;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
